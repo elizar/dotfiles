@@ -187,7 +187,7 @@ nmap <leader>A :tab split<CR>:Ack <C-r><C-w><CR>
 
 " Should fix tabs/space issues
 autocmd Filetype html,python,php setlocal ts=4 sts=4 sw=4 expandtab
-autocmd Filetype ruby,cucumber,javascript,jade,pug,sh,text,jsx,scala,vue.html.javascript.css,css,scss setlocal ts=2 sts=2 sw=2 expandtab
+autocmd Filetype ruby,cucumber,javascript,json,jade,pug,sh,text,jsx,scala,vue.html.javascript.css,css,scss setlocal ts=2 sts=2 sw=2 expandtab
 autocmd Filetype go setlocal ts=4 sts=4 sw=4 noexpandtab
 
 " Enable cursorcolumn for `haml` files
