@@ -1,6 +1,4 @@
-[~/.*]
-
-  Dotfiles et al.
+[OVERVIEW]
 
   This is a stripped down version of my old dotfiles. I've only included the
   essential stuff here. Mostly for `Go` and `Javascript` development.
