@@ -37,13 +37,15 @@
 
 [SETUP]
 
-  Run initial setup first with the following command.
-
-    $ ./setup.sh
-
-  And then...
+  Run the script with:
 
     $ ./start.sh
+
+    Optional flags:
+    --setup Force initial setup.
+         -s
+    --force Force sync. Will override existing files.
+         -f
 
 
 
