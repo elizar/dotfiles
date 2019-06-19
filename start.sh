@@ -15,10 +15,19 @@ function setup() {
     echo Error: rake not installed
     exit 1
   fi
+  if [[ ! -x $(which go) ]]; then
+    echo Error: Go not installed
+    exit 1
+  fi
   if [[ ! -x $(which nvim) ]] || [[ ! -x $(which vim) ]]; then
     echo Error: vim/nvim not installed
     exit 1
   fi
+
+  # golangci_lint
+  echo '  -> Installing golangci_lint'
+  go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
+  echo '  -> golangci_lint installed'
 
   # install z.sh
   echo '  -> Installing z.sh'
