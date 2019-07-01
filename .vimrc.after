@@ -1,3 +1,5 @@
+set termguicolors
+set termbidi
 set mouse=a
 " Enable mouse in all modes
 "set ttymouse=xterm2
