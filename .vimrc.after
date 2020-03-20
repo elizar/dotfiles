@@ -5,7 +5,7 @@ set mouse=a
 "set ttymouse=xterm2
 
 " Default colorscheme
-color xcode-default
+"color jellybeans
 
 " Make Vim more useful
 set nocompatible
@@ -208,7 +208,7 @@ let g:NERDTreeHijackNetrw=0
 " Golang
 " vim-go specific settings
 let g:go_fmt_command = "goimports"
-let g:go_metalinter_command = "golangci-lint run"
+let g:go_metalinter_command = "golangci-lint"
 let g:go_metalinter_autosave = 1
 let g:go_metalinter_enabled = ['deadcode', 'errcheck', 'gosimple', 'govet', 'ineffassign', 'staticcheck', 'structcheck', 'unused', 'varcheck']
 let g:go_metalinter_autosave_enabled = ['deadcode', 'errcheck', 'gosimple', 'govet', 'ineffassign', 'staticcheck', 'structcheck', 'unused', 'varcheck']

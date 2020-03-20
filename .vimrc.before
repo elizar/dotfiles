@@ -1,3 +1,6 @@
 " Change mapleader
 let mapleader=","
 let g:airline_theme='light'
+let g:mascara_apply_at_startup = 1
+"let g:mascara_italic = []
+let g:go_list_autoclose = 1
