@@ -56,6 +56,20 @@
   all your custom vim configs there.
 
 
+  -= coc.nvim config =-
+  {
+    "coc.preferences.formatOnSaveFiletypes": ["*"],
+    "languageserver": {
+      "golang": {
+        "command": "gopls",
+        "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+        "filetypes": ["go"],
+        "initializationOptions": {
+          "usePlaceholders": true
+        }
+      }
+    }
+  }
 
 Cheers,
 
